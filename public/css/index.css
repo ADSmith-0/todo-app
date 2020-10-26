@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height:100%;
+    width: 100%;
+}
+
+/* page */
+
+/* Header */
+#header {
+    text-decoration: underline;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Input */
+#todo_input {
+    width: 30%;
+    margin: auto;
+}
+
+/* Add button */
+#add_button {
+    line-height: 1em;
+    padding: 6px 8px;
+    color: #222;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid#333;
+    background-color: #eee;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px #000;
+}
+
+#add_button:hover {
+    background-color: #e0e0e0;
+}
+
+#add_button:active {
+    box-shadow: 1px 1px 1px #000;
+    transform: translateY(1px);
+}
+
+/* todo list */
+#todo_list {
+    width: 25%;
+    margin: auto;
+}
+
+/* todo item */
+.todo_item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+/* checkbox */
+#check {
+    margin: 5px;
+    flex:1;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#check_label {
+    margin: 5px;
+    flex: 5;
+    text-align: center;
+
+}
+
+#todoitem_close_button {
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 8px;
+    line-height: 0.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f00;
+    box-shadow: 0.5px 0.5px 2px #000;
+    
+}
+
+#todoitem_close_button:hover {
+    background-color: #fa0000;
+}
+
+#todoitem_close_button:active {
+    box-shadow: 0.2px 0.2px 1px #000;
+    transform: translateY(1px);
+}
