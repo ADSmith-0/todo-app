@@ -78,22 +78,25 @@ body {
 
 #todoitem_close_button {
     margin: auto;
-    border: 2px solid #000;
-    border-radius: 50%;
+    margin-right: 2px;
+    border: none;
     padding: 8px;
     line-height: 0.5em;
     font-weight: bold;
-    color: #fff;
-    background-color: #f00;
-    box-shadow: 0.5px 0.5px 2px #000;
+    color: #000;
+    border-radius: 50%;
+    background-color: none;
+    opacity: 0.9;
+    transition-duration: 0.1s;
+    text-shadow: 0.5px 0.5px 2px #000;
     
 }
 
 #todoitem_close_button:hover {
-    background-color: #fa0000;
+    opacity: 1;
 }
 
 #todoitem_close_button:active {
-    box-shadow: 0.2px 0.2px 1px #000;
+    text-shadow: 0.2px 0.2px 1px #000;
     transform: translateY(1px);
 }
