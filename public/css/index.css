@@ -22,6 +22,8 @@ body {
 #todo_input {
     width: 30%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 /* Add button */
